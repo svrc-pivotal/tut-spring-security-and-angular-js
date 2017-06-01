@@ -1,0 +1,10 @@
+---
+applications:
+- name: feature-test
+  memory: 512m
+  path: target/basic-0.0.1-SNAPSHOT.jar
+  env:
+    FEATURE_A: true
+    feature_show_greeting: true
+    feature_b: false
+
